@@ -1,0 +1,47 @@
+<!--
+    creá un formulario que capture el primer nombre, segundo nombre, apellido/s y edad del usuario
+// también vamos a crear un <h1> que diga Bienvenido!
+// vas a crear un botón de acción que una vez que lo apretás, va a
+// mostrar toda la información junta en un campo de texto
+// Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!
+
+/*
+Ejemplo form:
+  <form id="entrada-bar" onsubmit="return false;">
+    <input type="text" placeholder="Ingresá tu nombre" id="nombre-usuario"/>
+    <input type="number" placeholder="Ingresá tu edad" id="edad-usuario" />
+    <input type="submit" value="Ingresar" id="ingresar"/>
+  </form>
+
+  <div id="resultado">Hola</div>
+*
+* */
+-->
+
+
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 5 - Tarea 2</title>
+</head>
+<body>
+    <h1>Bienvenido! </h1>
+    <form>
+        <label for="nombre-usuario">Ingresa tu nombre</label>
+        <input type="text" id="nombre-usuario" placeholder="Tu nombre"/>
+        <label for="segundo-nombre-usuario">Ingresa tu segundo nombre</label>
+        <input type="text" id="segundo-nombre-usuario" placeholder="Tu segundo nombre"/>
+        <label for="apellido-usuario">Ingresa tu apellido</label>
+        <input type="text" id="apellido-usuario" placeholder="Tu apellido"/>
+        <label for="edad-usuario">Ingresa tu edad</label>
+        <input type="number" id="edad-usuario"/>
+
+        <button type="reset">Limpiar</button>
+    </form>
+    <script type="text/javascript" src="tarea1.js"></script>
+</body>
+</html>
